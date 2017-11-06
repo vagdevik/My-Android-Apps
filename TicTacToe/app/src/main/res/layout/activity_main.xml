@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    tools:context="com.example.vubuntu.tictactoe.MainActivity"
+    tools:layout_editor_absoluteY="25dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="274dp"
+        android:layout_height="266dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="100dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="100dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="50dp"
+        tools:layout_editor_absoluteX="129dp">
+
+        <LinearLayout
+            android:id="@+id/line1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:onClick="imageTapped"
+                android:tag="0"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:onClick="imageTapped"
+                android:tag="1"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:onClick="imageTapped"
+                android:tag="2"
+                app:srcCompat="@mipmap/ic_launcher" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/line2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:onClick="imageTapped"
+                android:tag="3"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:onClick="imageTapped"
+                android:tag="4"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:onClick="imageTapped"
+                android:tag="5"
+                app:srcCompat="@mipmap/ic_launcher" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/line3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:onClick="imageTapped"
+                android:tag="6"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:onClick="imageTapped"
+                android:tag="7"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:onClick="imageTapped"
+                android:tag="8"
+                app:srcCompat="@mipmap/ic_launcher" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:onClick="buttonTapped"
+        android:padding="20dp"
+        android:text="@string/button"
+        android:textColor="@android:color/background_light"
+        tools:text="@string/button"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        android:layout_marginTop="50dp"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+</android.support.constraint.ConstraintLayout>

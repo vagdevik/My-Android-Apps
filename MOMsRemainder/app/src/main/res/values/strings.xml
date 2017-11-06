@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MOMs Remainder</string>
+    <string name="app_text">Time Left</string>
+    <string name="mdefault">0</string>
+    <string name="result">Not Done Yet!</string>
+    <string name="button">Start</string>
+    <string name="req_time">Enter Time in seconds</string>
+    <string name="newButton">Set New Timer</string>
+</resources>

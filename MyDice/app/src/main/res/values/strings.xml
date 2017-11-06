@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyDice</string>
+    <string name="title">Snakes and Ladders</string>
+    <string name="logo">Roll It</string>
+</resources>
